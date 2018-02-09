@@ -15,6 +15,13 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
+# Using all of the following for the test suites
+gem 'rspec-rails', '~>3.6'
+gem 'factory_bot_rails'
+gem 'rails-controller-testing'
+gem 'headless'
+gem 'poltergeist'
+gem 'database_cleaner'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use devise for authentication
