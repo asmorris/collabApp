@@ -13,4 +13,7 @@ class RegistrationsController < Devise::RegistrationsController
 	def nothing
 	end
 
+	def something
+	end
+
 end
